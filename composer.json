@@ -1,0 +1,23 @@
+{
+    "name": "maste/bienesraices_inicio",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Johan Ortega",
+            "email": "jpom2001118@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "2",
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers"
+        }
+    }
+}
